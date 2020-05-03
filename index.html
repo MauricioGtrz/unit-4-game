@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Crystal Collector!</title>
 </head>
 <body>
     <header><h1>Crystal Collector!</h1></header>
-    <br><br>
+    <br><br><br>
     <div id="mainText">
         You will be given a random number at the start of the game.
         <br><br>
@@ -20,8 +21,15 @@
     </div>
     <br>
     <div id="secondText">
-        <div id="randomNum">hello</div>
-        <div id="total">hi</div>
+        <div id="randomNum"></div>
+        <div id="total">
+            <br>
+            <div id="wins"></div>
+            <br>
+            <div id="loses"></div>
+            <br>
+            <div id="tracker"></div>
+        </div>
     </div>
     <br>
     <div id="images">
@@ -33,7 +41,11 @@
     <br>
     <div id="thirdText">
         <div id="scoreHeader">Your total score is:</div>
-        <div id="score">0</div>
+        <br>
+        <div id="score"></div>
     </div>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
 </body>
 </html>
