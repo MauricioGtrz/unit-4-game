@@ -1,0 +1,83 @@
+header {
+    background-color: aqua;
+    color: azure;
+    width: fit-content;
+    padding: 20px;
+}
+body {
+    background-image: url('http://blueprintcreatives.com/wp-content/uploads/2013/03/pattern.png');
+}
+
+#mainText {
+    color: darkolivegreen;
+    background-color: darkorange;
+    font-weight: bold;
+    width: 350px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#secondText{
+    width: 300px;
+    height: 150px;
+}
+
+#randomNum{
+    background-color: darkolivegreen;
+    color: azure;
+    width: 210px;
+    float: left;
+    height: 100%;
+    font-size: xx-large;
+}
+
+#total{
+    background-color: aqua;
+    color: darkgreen;
+    width: 75px;
+    margin-left: 15px;
+    float: left;
+    text-align: center;
+    height: 100%;
+}
+
+#images{
+    height: 100px;
+    width: 600px;
+}
+#crystal1{
+    float: left;
+    margin-right: 10px;
+}
+
+#crystal2{
+    float: left;
+    margin-right: 10px;
+
+}
+
+#crystal3{
+    float: left;
+    margin-right: 10px;
+
+}
+
+#crystal4{
+    float: left;
+}
+
+#thirdText{
+    background-color: teal;
+    color: azure;
+    height: 200px;
+    width: 300px;
+}
+
+#scoreHeader{
+
+}
+
+#score{
+    font-size: xx-large;
+}
